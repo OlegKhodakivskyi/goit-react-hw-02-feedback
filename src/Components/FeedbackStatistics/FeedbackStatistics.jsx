@@ -21,7 +21,6 @@ const FeedbackStatistics = ({
             <li name={bad}> Bad: {bad} </li>
             <li> Total:{total} </li>
             <li>
-              {" "}
               Positive feedback: {isNaN(percent) ? 0 : Math.round(percent)}%
             </li>
           </ul>

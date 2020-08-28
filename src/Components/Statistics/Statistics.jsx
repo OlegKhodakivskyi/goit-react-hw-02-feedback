@@ -40,8 +40,7 @@ class Statistics extends Component {
 
     return (
       <>
-        <FeedbackSection changeValue="this.changeValue"
-        />
+        <FeedbackSection changeValue={this.changeValue} />
         <FeedbackStatistics
           good={good}
           bad={bad}
